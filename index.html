@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/solarized.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+
+        <section data-markdown>
+          <textarea data-template>
+            ## Ethereum  
+            ## jako platforma dla  
+            ## aplikacji rozproszonych
+          </textarea>
+        </section>
+
+
+        <section data-markdown>
+          <textarea data-template>
+            # 👋🏼
+            ## Wojciech Korzeniowski
+            WojciechKo @ Github  
+            Ruby developer @ EL Passion
+          </textarea>
+        </section>
+
+
+        <section data-markdown>
+          <textarea data-template>
+            # Plan prezentacji
+            1. Blockchain
+            2. Ethereum
+            3. Bezpieczeństwo
+          </textarea>
+        </section>
+
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Blockchain
+
+              <!-- <three blue and brown link> -->
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Bitcoin
+
+              Stworzony przez ?????
+
+              Note: Porównanie do gita  
+              Aktualnie jest x bitcoinów a max będzie 21M
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Blok
+              Grupa transakcji
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Transakcja
+
+              - Kto?
+              - Komu?
+              - Ile?
+              - Opłata
+
+              Note: Opłata idzie do kopacza
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Portfel
+
+              - Klucz publiczny - adres konta bankowego
+              - Klucz prywatny - hasło do konta
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Węzeł
+
+              Kopia blockchainu
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Kopacz
+
+              Ustalanie konsensusu
+              - dowód pracy (proof of work)
+              - dowód stawki (proof of stake)
+
+              Note: Potrzebne do zaakceptowania transakcji.
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Transakcje oczekujące  
+              ## (transaction pool)
+
+              Note: Kolejka priorytetowa, Cryptokitty
+            </textarea>
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Ethereum
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Inteligentny Kontrakt
+              ## (Smart Contract)
+              Składoowe kontraktu:
+              - Pamięć
+              - Funkcje
+              Note: Analogia do bazy danych z procedurami
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Portfel
+
+              Właściciel:
+              - Człowiek
+              - Inteligentny kontrakt
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Transakcja
+
+              - Transfer Ethereum pomiędzy portfelami
+              - Utworzenie nowego kontraktu
+              - Wywołanie funkcji na istniejącym kontrakcie
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Gas
+
+              Opłata za zapis
+              Note: Czytanie za darmo, zapis kosztuje.  
+              Zapis odbywa się na każdym z węzłów
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Infura
+
+              Publiczny węzeł do czytania blockchainu Ethereum
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Metamusk
+
+              Wtyczka do przeglądarki umożliwiająca  
+              tworzenie transakcji
+            </textarea>
+          </section>
+        </section>
+
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              ## Bezpieczeństwo
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Liczby losowe
+              [Predicting Random Numbers  
+              in Ethereum Smart Contracts](https://blog.positive.com/predicting-random-numbers-in-ethereum-smart-contracts-e5358c6b8620)
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+              ## Slotthereum
+              <div class="stretch">
+                <iframe data-src="https://github.com/slotthereum/source/issues/1" height="768" width="1024" > </iframe>
+              </div>
+              https://github.com/slotthereum/source/issues/1
+            </textarea>
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # 🙏🏼
+              # Dziękuję za uwagę!
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+            </textarea>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        slideNumber: true,
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
